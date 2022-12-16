@@ -1,0 +1,19 @@
+class Heart:
+    def __init__(self, heartValves):
+        self.heartValves = heartValves
+    def display(self):
+        return self.heartValves
+class Person:
+    def __init__(self,fname,lname,address,heartValves):
+        self.fname=fname
+        self.lname=lname
+        self.address=address
+        self.heartValves=heartValves
+        self.heartObject=Heart(self.heartValves)
+    def display(self):
+        print("First name:",self.fname)
+        print("last name:",self.lname)
+        print("adderess:",self.address)
+        print("no. of heart valves:",self.heartObject.display())
+p=Person("Adam","ayn","859 zxe ie",4)
+p.display()
