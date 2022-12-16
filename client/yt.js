@@ -148,7 +148,7 @@ $(document).ready(function () {
 });
  
   function aaha(test){
-const serverURL = 'http://localhost:8000';
+const serverURL = 'https://sixth-try-hai-mera.onrender.com';
 console.log(test)
 const sendButton = (videoURL=String(test), format="video&audio", quality="high") => {
     fetch(`${serverURL}/check-download?URL=${videoURL}`)
