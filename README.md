@@ -1,3 +1,51 @@
+  string fruits[100] = {
+    "apple",
+    "apricot",
+    "avocado",
+    "banana",
+    "blackberry",
+    "blueberry",
+    "cantaloupe",
+    "cherry",
+    "coconut",
+    "cranberry",
+    "cucumber",
+    "dragon fruit",
+    "durian",
+    "elderberry",
+    "fig",
+    "grape",
+    "grapefruit",
+    "guava",
+    "honeydew melon",
+    "kiwifruit",
+    "lemon",
+    "lime",
+    "lychee",
+    "mango",
+    "mandarin orange",
+    "nectarine",
+    "orange",
+    "papaya",
+    "peach",
+    "pear",
+    "pineapple",
+    "plum",
+    "pomegranate",
+    "raspberry",
+    "strawberry",
+    "tangerine",
+    "watermelon",
+    "zucchini"
+  };
+
+
+
+
+
+
+
+
 # YouTube Downloader & Converter
 
 Download and convert any YouTube video to MP3 or MP4. Built using Vanilla JS and Node.js
